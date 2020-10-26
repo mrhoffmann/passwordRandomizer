@@ -28,7 +28,6 @@ symbols := "!|#|¤|&|_|-|/|(|)|=|*"
    nWhat = % list2%rand%
    nSym = % list3%ran%
 
-   container = %nVar%%nWord%%nWhat%%ra%%nSym%
-   Clipboard := container
+   Clipboard = %nVar%%nWord%%nWhat%%ra%%nSym%
 
 return
